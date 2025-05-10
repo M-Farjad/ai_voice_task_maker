@@ -14,10 +14,12 @@ export 'services/auth_service.dart';
 export 'controllers/task_controller.dart';
 
 export 'widgets/task_card.dart';
+export 'widgets/shimmer_list.dart';
 
 export 'utils/assets.dart';
 export 'utils/text_styles.dart';
 export 'utils/task_logic.dart';
+export 'utils/custom_colors.dart';
 
 export 'views/splash_page.dart';
 export 'views/home_page.dart';

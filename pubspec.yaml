@@ -23,6 +23,9 @@ dependencies:
   google_fonts: ^6.2.1
   firebase_auth: 
   google_sign_in: 
+  permission_handler: ^12.0.0+1
+  string_similarity: ^2.1.1
+  shimmer: ^3.0.0
   # flutter_launcher_icons: ^0.14.3
 
 

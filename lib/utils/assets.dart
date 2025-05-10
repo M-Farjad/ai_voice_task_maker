@@ -5,4 +5,6 @@ class Assets {
   static const String recording = 'assets/lottie/recording.json';
   static const String emptyList = 'assets/images/emptyList.png';
   static const String googleLogo = 'assets/icons/Google.png';
+  static const String done = 'assets/icons/done.png';
+  static const String notDone = 'assets/icons/NotDone.png';
 }

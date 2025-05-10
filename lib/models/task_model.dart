@@ -1,14 +1,14 @@
 class TaskModel {
-  final String id;
-  final String title;
-  final String description;
-  final DateTime scheduledAt;
+  final String? id;
+  final String? title;
+  final String? description;
+  final DateTime? scheduledAt;
 
   TaskModel({
-    required this.id,
-    required this.title,
-    required this.description,
-    required this.scheduledAt,
+    this.id,
+    this.title,
+    this.description,
+    this.scheduledAt,
   });
 
   factory TaskModel.fromJson(Map<String, dynamic> json) => TaskModel(
@@ -22,6 +22,6 @@ class TaskModel {
         'id': id,
         'title': title,
         'description': description,
-        'scheduledAt': scheduledAt.toIso8601String(),
+        'scheduledAt': scheduledAt?.toIso8601String(),
       };
 }

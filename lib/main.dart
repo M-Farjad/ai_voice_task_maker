@@ -5,8 +5,8 @@ import 'headers.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
-  await Firebase.initializeApp(options: DefaultFirebaseOptions.currentPlatform);
   await dotenv.load(); // Load environment variables from .env file
+  await Firebase.initializeApp(options: DefaultFirebaseOptions.currentPlatform);
   // Initialize GetX Controller
   Get.put(TaskController(), permanent: true);
 
