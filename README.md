@@ -87,7 +87,7 @@ Obx(() => isLoading.value
 
 ---
 
-## 📊 Google Auth for User Authentication
+## 👥 Google Auth for User Authentication
 
 Added additional auth because users must be shown there own tasks. Utilized it using Firebase.
 
