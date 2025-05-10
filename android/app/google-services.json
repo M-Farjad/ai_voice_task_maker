@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "595547911624",
+    "project_id": "ai-voice-task-maker",
+    "storage_bucket": "ai-voice-task-maker.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:595547911624:android:c8542ee1e46787a43bbcfd",
+        "android_client_info": {
+          "package_name": "com.example.ai_voice_task_maker"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDRjFarKjwatWRLlX1OltbN32mwe3q5Oa8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
